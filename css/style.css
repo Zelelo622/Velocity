@@ -11,6 +11,8 @@ body {
   margin: 0 auto;
 }
 
+/*header*/
+
 .header {
   padding: 17px 0 18px 0;
 }
@@ -50,4 +52,60 @@ body {
 .menu__item:hover,
 .menu__item:active {
   color: #0082f3;
+}
+
+/*welcome*/
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  min-height: 594px;
+  background-image: url(../img/welcome.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.welcome_heading {
+  padding-top: 50px;
+  margin-bottom: 100px;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 60px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.welcome__links {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.link-primary {
+  padding: 12px 30px;
+  background-color: #69b9ff;
+  border-radius: 4px;
+  transition: .2s;
+}
+.link-primary:hover {
+    opacity: .8;
+}
+
+.link {
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: .2s;
+}
+.link:hover {
+    opacity: .8;
 }
