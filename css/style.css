@@ -94,18 +94,84 @@ body {
   padding: 12px 30px;
   background-color: #69b9ff;
   border-radius: 4px;
-  transition: .2s;
+  transition: 0.2s;
 }
 .link-primary:hover {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 .link {
   padding: 10px 30px;
   border: 1px solid #fff;
   border-radius: 4px;
-  transition: .2s;
+  transition: 0.2s;
 }
 .link:hover {
-    opacity: .8;
+  opacity: 0.8;
+}
+
+/*about*/
+
+.about {
+  text-align: center;
+}
+
+.title-wrapper {
+  padding-top: 80px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #676770;
+}
+
+.subtitle {
+  padding-top: 17px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #8e8e9c;
+}
+
+.cards-wrapper {
+  padding: 60px 0 80px 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+
+.card {
+  border: 1px solid #dcebf7;
+  border-radius: 5px;
+  padding: 36px 16px 23px 16px;
+  width: 300px;
+}
+
+.card__img {
+  width: 94px;
+  height: 94px;
+}
+
+.card__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #676770;
+  margin-top: 19px;
+}
+
+.card__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #6a859c;
+  margin-top: 14px;
 }
