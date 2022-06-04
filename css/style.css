@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 
+.common-section {
+  text-align: center;
+}
+
 /*header*/
 
 .header {
@@ -118,10 +122,6 @@ body {
 
 /*about*/
 
-.about {
-  text-align: center;
-}
-
 .title-wrapper {
   padding-top: 80px;
 }
@@ -158,11 +158,6 @@ body {
   width: 300px;
 }
 
-/* .card__img {
-  width: 94px;
-  height: 94px;
-} */
-
 .card__title {
   font-weight: 400;
   font-size: 20px;
@@ -183,10 +178,6 @@ body {
 
 /*service*/
 
-.common-section {
-  text-align: center;
-}
-
 .common-section--dark {
   background-color: #192024;
 }
@@ -202,7 +193,52 @@ body {
   border: none;
 }
 
-.services .link{
+.services .link {
   display: inline-block;
   margin-top: 17px;
+}
+
+/*tabs*/
+
+.tabs__nav {
+  margin-top: 72px;
+}
+.tabs__nav button {
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #92a0ad;
+  border-radius: 4px;
+  padding: 1px 30px;
+}
+.tabs__nav button.active {
+  background: #2e80b6;
+}
+.tabs__nav button + button {
+  margin-left: 16px;
+}
+
+.tabs__item {
+  margin-top: 52px;
+}
+
+.tabs__title {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 36px;
+  color: #676770;
+}
+
+.tabs__desc {
+  max-width: 720px;
+  margin: 14px auto 0;
+  padding-bottom: 90px;
+}
+.tabs__desc p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  color: #6a859c;
 }
