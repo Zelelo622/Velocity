@@ -131,7 +131,6 @@ body {
   opacity: 0.8;
 }
 
-
 .link-primary {
   padding: 12px 30px;
   background-color: #69b9ff;
@@ -351,7 +350,6 @@ body {
 }
 
 @media (max-width: 660px) {
-
   .tabs__nav {
     margin-bottom: 30px;
   }
@@ -369,7 +367,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
   .title-wrapper {
     font-size: 40px;
   }
