@@ -253,7 +253,7 @@ body {
 
 @keyframes fade {
   from {
-    opacity: .3;
+    opacity: 0.3;
   }
   to {
     opacity: 1;
@@ -329,6 +329,13 @@ body {
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #676770;
+}
+
+.footer__about p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #6a859c;
 }
 
 .footer__social li::before {
